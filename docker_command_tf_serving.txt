@@ -1,3 +1,0 @@
-docker command for establishing the port for tensorflow serving, we will send the pic to this serving and will get back the inference.
-
-sudo docker run -p 8501:8501 --name=pets -v "C:/Users/Vineeth M/Desktop/app/pets/:/models/pets/1" -e MODEL_NAME=pets tensorflow/serving
